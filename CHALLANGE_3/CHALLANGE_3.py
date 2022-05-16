@@ -6,8 +6,8 @@ def main():
 	global b
 	if a < b:
 		print("A < B")
-	# elif a > b:
-	# 	print("A > B")
+	elif a > b:
+		print("A > B")
 	else:
 		print("A == B")
 pass
