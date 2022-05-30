@@ -8,7 +8,9 @@ def sort_a_b_c_d():
 	global b
 	global c
 	global d
-	# WRITE YOUR CODE HERE
+	a, c = c, a
+	b, b = b, b
+	c, d = d, c
 	pass
 
 def main():

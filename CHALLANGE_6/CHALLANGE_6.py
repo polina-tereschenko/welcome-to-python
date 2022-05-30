@@ -3,7 +3,14 @@ b: int = 45
 oper: str = "+"
 
 def calculate(left: int, right: int, operation: str):
-	# WRITE YOUR CODE HERE
+	if operation == '+':
+		return left + right
+	if operation == '-':
+		return left - right
+	if operation == '*':
+		return left * right
+	if operation == '/':
+		return left / right
 	pass
 
 
